@@ -1,4 +1,37 @@
 
+# -[Sendu](https://sendu-app.cl/) - Plugin for WooCommerce
+
+This WooCommerce plugin allows any Chilean e-commerce to integrate Sendu as a courier service provider for their shipments.
+
+The price of the shipment will be calculated according to the physical characteristics of the product such as its dimensions, the place of collection and place of delivery based on the user's postal code, returning the official rate and thus being able to quote in real time the value of the shipment of the products.
+
+In case of not having coverage, the user is allowed to continue with the purchase, in order to get the store to quote the exact value of the shipment after the order.
+## Demo
+
+### To configure the plugin, you must have previously WooCommerce
+
+![Sendu Backend](https://i.imgur.com/A06pIcK.png)
+
+You can go to WooCommerce Shipping Settings -> Sendu, or for speed, there is a link in the backend called Sendu that will take you directly to settings.
+
+There you must have a Sendu account, and fill in the fields correctly:
+
+- Check if you want to be enabled
+- **Title**: Title to be display on site
+- **SendU URL**: Set the SendU API URL
+- **SendU Email**: Set SendU email
+- **Token SendU**: Set the SendU token
+- **Status to generate order**: In what order status should a work order be generated
+- **Alert dimensionless products**: What library will be used to notify alerts, warnings or errors
+- **Action to take if there is no quote**: If you choose to hide shipping method, the SendU shipping method for that area is not shown, if you want to add the text "No-Coverage" the shipping will not be charged and you must add it manually when you have a quote or agree with your client.
+- **Warning message**: Warning message on non coverage zone
+
+# Enjoy your site connected with SendU and start selling!
+## Authors
+
+- [@SebasVergara](https://www.github.com/sebasvergara)
+
+
 ## Changelog
 
 ## [1.0.8] - 2020-09-24
